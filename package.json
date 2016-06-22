@@ -1,0 +1,14 @@
+{
+  "name": "cars",
+  "version": "1.0.0",
+  "description": "Cars Cars Cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Scott Traver",
+  "license": "ISC",
+  "dependencies": {
+    "fortune": "^4.1.1"
+  }
+}
