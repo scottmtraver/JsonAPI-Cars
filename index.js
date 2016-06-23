@@ -29,7 +29,7 @@ const http = require('http')
 const listener = fortune.net.http(store, {
   serializers: [
     // The `options` object here is optional.
-    [ jsonApiSerializer, { prefix: 'api/' } ]
+    [ jsonApiSerializer, { prefix: 'http://localhost:3000/' } ]
   ]
 })
 // The listener function may be used as a standalone server, or
