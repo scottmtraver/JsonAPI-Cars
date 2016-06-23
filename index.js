@@ -9,6 +9,7 @@ const store = fortune({
     make: { type: String },
     miles: { type: Number },
     description: { type: String },
+    photo_url: { type: String }
 
     // Following and followers are inversely related (many-to-many).
     seller: { link: 'seller', isArray: false }
@@ -53,6 +54,7 @@ store.request({
     model: 'Model S',
     make: 'Tesla',
     miles: 1200,
-    description: 'Awesome car!'
+    description: 'Awesome car!',
+    photo_url: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Tesla_Model_S_Indoors_trimmed.jpg'
   }]
 })
