@@ -4,11 +4,13 @@
   "description": "Cars Cars Cars",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "author": "Scott Traver",
   "license": "ISC",
   "dependencies": {
-    "fortune": "^4.1.1"
+    "fortune": "^4.1.1",
+    "fortune-json-api": "^2.0.8"
   }
 }
